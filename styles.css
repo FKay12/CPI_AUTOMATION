@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root{
+    --primary-color:#1087c3;
+    --primary-color2:#c31010;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+} 
+.font-weight-600{
+  font-weight: 600;
+}
+.bg-primary-color{
+  background-color:var(--primary-color);
+  
+}
+.text-primary-color{
+  color:var(--primary-color);
+}
+
+.bg-primary-color2{
+    background-color:var(--primary-color2);
+    
+  }
+  .text-primary-color2{
+    color:var(--primary-color2);
+  }
+
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+ .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 60%;
+    padding: 20px; /* Some padding */
+  }
+
+  
+body{margin-top:20px;}
+
+
+@media (max-width: 991px) {
+  .about-text {
+    margin-top: 40px;
+  }
+}
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+    font-family: 'Roboto';
+  }
+}
+.about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+}
+@media (max-width: 767px) {
+  .about-text h4 {
+    font-size: 18px;
+    
+  }
+}
+.about-text p {
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: 'dosis';
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #3a3973;
+}
+.about-text .btn-bar {
+  padding-top: 8px;
+ 
+}
+.about-text .btn-bar a {
+  min-width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #3a3973;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #3a3973;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 100px) {
+  .about-img {
+    margin-top: 30px;
+  }
+}
+
+.counter-section {
+  padding: 40px 20px;
+}
+.counter-section .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.counter-section .count {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+.counter-section p {
+  font-weight: 500;
+  margin: 0;
+  color: #fe4f6c;
+}
+.theme-color {
+    color: #fe4f6c;
+    padding-left: 10px;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.bg {
+    background: #97c6dd;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.px-btn.theme {
+    background: #2BAADF;
+    color: #ffffff;
+    border: 5px outset #4CAAD8;
+    text-decoration: none;
+    font-family: 'dosis';
+}
+.px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    display: block;
+    
+    
+}
+.px-btn.theme2 {
+    background: #df2b2b;
+    color: #ffffff;
+    border: 5px outset #d84c4c;
+    text-decoration: none;
+    font-family: 'dosis';
+}
+.px-btn2 {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    display: block;
+    
+    
+    
+}
+.px-btn.theme:hover {background-color: #84d6ff; border: 5px outset #84d6ff;}
+
+.px-btn.theme2:hover {background-color: #ff5858; border: 5px outset #ff5858;}
+
+.wtch-btn{
+    text-align: center;
+}
+
+
+
+
+footer {
+    
+    background-color: #20729b;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    margin-top: 10px;
+    font-family:'dosis';
+  }
+  
